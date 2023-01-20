@@ -1,0 +1,511 @@
+
+body {
+  background-color: #f1f1f1;
+}
+.register-page {
+  padding: 4rem 0;
+}
+.reg-head h2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+.header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 19px;
+}
+ .input-box input {
+  width: 100%;
+  border: none;
+}
+ 
+.proceed-btn {
+  background-color: #676767;
+  color: #fff;
+  width: 90%;
+  height: 40px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.proceed-btn a {
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.proceed-btn a:hover {
+  text-decoration: none;
+}
+.candidate h2 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.candidate ul li {
+  list-style: auto;
+  padding-left: 12px;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.candidate ul {
+  padding-left: 15px;
+}
+.thankyou-page .proceed-btn {
+    width: 20%;
+}
+.thankyou-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thankyou-page .header h2 {
+  text-align: center;
+  padding-bottom: 0;
+}
+.login-page .header h2 {
+  text-align: center;
+}
+.login-page {
+  padding-top: 5rem;
+}
+.login-page .candidate h2 {
+  text-align: center;
+  width: 80%;
+}
+.otp-page .header h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000ab;
+  padding-bottom: 10px;
+}
+.otp-page .header h2 {
+  border-bottom: 2px solid #00000052;
+  padding-bottom: 7px;
+  width: 47%;
+}
+.otpContainer input {
+  width: 60px;
+  height: 55px;
+  margin-right: 30px;
+  border-radius: 8px;
+  border: 1px solid #00000054;
+  text-align: center;
+  font-size: 22px;
+}
+.otp-page .otpContainer {
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+.otp-page button.primary.btn.btn-primary {
+  width: 61%;
+  height: 40px;
+  border-color: inherit;
+  background-color: #676767;
+  border-radius: 7px;
+}
+.otp-page button.primary.btn.btn-primary:focus {
+  box-shadow: none;
+}
+.otp-page {
+  padding-top: 5rem;
+}
+.profile-page .profile-input .mb-1 {
+  display: flex;
+  align-items: center;
+}
+.profile-page .upload-box {
+  border: 1px solid #00000096;
+  padding: 4px 8px;
+  background-color: #fff;
+  width: 75%;
+}
+.profile-input .mb-1 p {
+  width: 62px;
+  margin-bottom: 0;
+}
+.profile-page .profile-input {
+  margin-bottom: 28px;
+}
+.profile-page .radio-but {
+  display: flex;
+}
+.profile-page .radio-but p {
+  padding-right: 20px;
+  font-weight: 500;
+}
+.uploder {
+  padding: 2rem 0 1rem 0;
+}
+.profile-page .proceed-btn {
+  width: 72%;
+  margin-top: 52px;
+}
+.profile-page {
+  padding-top: 5rem;
+}
+input:focus-visible {
+  outline: none !important;
+}
+.profile-two .bio textarea {
+  width: 85%;
+  resize: none;
+  padding: 10px;
+  border: 1px solid #00000054;
+} 
+.profile-two .bio p {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.profile-two .url p {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.profile-two .bio {
+  padding-top: 11px;
+  padding-bottom: 22px;
+}
+.profile-two .url {
+  padding-bottom: 15px;
+}
+.profile-two .url input {
+  border: 1px solid #00000054;
+  padding: 6px;
+  width: 45%;
+}
+.profile-two .proceed-btn {
+  width: 75%;
+}
+.profile-two {
+  padding-top: 5rem;
+}
+.personal-tabs .proceed-btn {
+  width: 40%;
+}
+.personal-tabs .proceed-btn button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  width: 100%;
+  height: 40px;
+}
+.personal-tabs .candidate {
+  padding-top: 65px;
+}
+.personal-tabs .proceed-btn {
+  width: 40%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.personal-tabs .tab-input input {
+  width: 97%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #00000085;
+  padding: 3px 15px;
+  background-color: transparent;
+  color: #000;
+}
+.personal-tabs .tab-input label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.personal-tabs .tab-input {
+  padding-bottom: 30px;
+}
+.personal-tabs .tab-input input::placeholder {
+  color: #000;
+}
+.tabs-section .MuiBox-root.css-19kzrtu {
+  padding-left: 0;
+  padding-top: 38px;
+}
+.tabs-section .form-head h4 {
+  font-size: 20px;
+  position: relative;
+}
+.tabs-section  .form-head {
+  padding-bottom: 26px;
+}
+.tabs-section .form-head h4:before {
+  position: absolute;
+  border: 1px solid #00000036;
+  width: 45%;
+  height: 1px;
+  content: '';
+  left: 169px;
+  top: 13px;
+}
+.tabs-section .MuiTabs-root button {
+  color: #000000b8 !important;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: inherit;
+  padding: 0;
+  margin-right: 36px;
+}
+.tabs-section .tab-head h2 {
+  font-size: 22px;
+  color: #0000009c;
+  margin-bottom: 1.5rem;
+}
+.tabs-section .css-1gsv261 {
+  border: none;
+}
+.tabs-section .css-1aquho2-MuiTabs-indicator {
+  background-color: #00000070;
+}
+.tabs-section {
+  padding: 3rem 0;
+}
+.tabs-section .MuiTabs-root button:focus {
+  outline: none;
+}
+.changepassword-tab {
+  width: 30%;
+}
+.proceed-button button {
+  width: 100%;
+  background-color: #676767;
+  border: none;
+  border-radius: 7px;
+}   
+.tabs-section .changepassword-tab .form-head h4:before {
+  width: 133%;
+  left: 183px;
+}
+.changepassword-tab input.form-control {
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #00000085;
+  padding: 3px 15px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.changepassword-tab .form-group {
+  margin-bottom: 2rem;
+}
+.changepassword-tab input::placeholder {
+  color: #000;
+}
+.login-page input[type="checkbox"] {
+  width: 19px;
+  height: 18px;
+  margin-right: 11px;
+}
+.login-page .check-box {
+  display: flex;
+  align-items: center;
+}
+.otp-page .proceed-btn {
+  width: 62%;
+  margin-top: 0px;
+}
+.proceed-button button:hover {
+  background-color: #676767;
+}
+.delete-tabs .check-box input {
+  width: 22px;
+  height: 16px;
+  margin-right: 7px;
+}
+.delete-tabs .check-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 9px;
+}
+.delete-tabs .reason .proceed-button button {
+  width: 25%;
+  background-color: #676767;
+  border: none;
+  border-radius: 7px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.delete-tabs .candidate {
+  width: 37%;
+}
+.make-payment .plan {
+  width: 50%;
+}
+.make-payment .paln-box {
+  border: 2px solid #0000003d;
+  background-color: #fff;
+  text-align: center;
+  padding: 1.5rem  0;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.paln-box h4 {
+  font-size: 22px;
+}
+.paln-box h5 {
+  font-size: 18px;
+}
+.make-payment .paln-box button.btn.btn-primary {
+  background-color: #000;
+  border: none;
+  padding: 3px 20px;
+  font-size: 12px;
+  margin-top: 38px;
+}
+.make-payment .plan {
+  width: 47%;
+}
+.candidate.payment-date {
+  padding-top: 3rem;
+}
+.make-payment .paln-box button:focus {
+  box-shadow: none;
+}
+.make-payment .paln-box button:active {
+  box-shadow: none;
+}
+.logout-box a {
+  position: absolute;
+  right: 18px;
+  top: 10px;
+  color: #000;
+  font-weight: 500;
+}
+.logout-box {
+  position: relative;
+}
+a:hover {
+  text-decoration: none;
+}
+.register-page .form-group i {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  font-size: 17px;
+}
+.register-page .form-group {
+  position: relative;
+  margin-bottom: 21px;
+}
+.register-page form {
+  width: 85%;
+}
+.modal-dialog .modal-box input {
+  width: 100%;
+  border: 1px solid #00000080;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 12px;
+}
+.modal-dialog .modal-box {
+  padding-bottom: 12px;
+}
+
+input#session-date {
+  display: inline-block;
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+input:focus {
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important;
+} 
+.register-page .form-group .error {
+  color: red;
+  font-size: 12px;
+}
+.register-page .form-group input {
+  padding-left: 47px;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  height: 41px;
+}
+.inputsubmit-btn input {
+  width: 100%;
+  background-color: #676767;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  color: #fff;
+}
+
+
+.form-group input {
+  padding: 5px 30px 5px 10px;
+  font-size: 20px;
+}
+
+.form-group img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 8px;
+  top: 8px;
+}
+
+.login-page .input-box input {
+  padding-left: 47px;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  height: 41px;
+}
+
+.login-page .input-box img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 8px;
+  top: 8px;
+}
+.login-page .input-box i {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  font-size: 18px;
+}
+.login-page .input-box {
+  position: relative;
+  margin-bottom: 21px;
+  width: 85%;
+}
+.login-page .inputsubmit-btn input {
+  width: 85%;
+  margin-top: 48px;
+}
+.input-box .error {
+  color: red;
+  font-size: 12px;
+}
+.login-page .proceed-btn {
+  width: 85%;
+}
+.resent-otp {
+  width: 62%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
