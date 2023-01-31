@@ -28,8 +28,8 @@ function App() {
     // </>
     <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Registernew />} />
           <Route path="/Register" element={<Register />} />
-          <Route path="/Registernew" element={<Registernew />} />
           <Route path="/Thankyou" element={<Thankyou />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Otp" element={<Otp />} />
